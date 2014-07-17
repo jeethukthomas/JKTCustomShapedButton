@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48C4F40A1977DC5F00A8848D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C4F4091977DC5F00A8848D /* Foundation.framework */; };
+		48C4F40C1977DC5F00A8848D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C4F40B1977DC5F00A8848D /* CoreGraphics.framework */; };
+		48C4F40E1977DC5F00A8848D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C4F40D1977DC5F00A8848D /* UIKit.framework */; };
+		48C4F4141977DC5F00A8848D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48C4F4121977DC5F00A8848D /* InfoPlist.strings */; };
+		48C4F4161977DC5F00A8848D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C4F4151977DC5F00A8848D /* main.m */; };
+		48C4F41A1977DC5F00A8848D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C4F4191977DC5F00A8848D /* AppDelegate.m */; };
+		48C4F41D1977DC5F00A8848D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C4F41B1977DC5F00A8848D /* Main.storyboard */; };
+		48C4F4201977DC5F00A8848D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C4F41F1977DC5F00A8848D /* ViewController.m */; };
+		48C4F4221977DC5F00A8848D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C4F4211977DC5F00A8848D /* Images.xcassets */; };
+		48C4F4291977DC5F00A8848D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C4F4281977DC5F00A8848D /* XCTest.framework */; };
+		48C4F42A1977DC5F00A8848D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C4F4091977DC5F00A8848D /* Foundation.framework */; };
+		48C4F42B1977DC5F00A8848D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C4F40D1977DC5F00A8848D /* UIKit.framework */; };
+		48C4F4331977DC5F00A8848D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48C4F4311977DC5F00A8848D /* InfoPlist.strings */; };
+		48C4F4351977DC5F00A8848D /* JKTCustomShapedButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C4F4341977DC5F00A8848D /* JKTCustomShapedButtonTests.m */; };
+		48C4F4411977DCE100A8848D /* JKTCustomShapedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C4F4401977DCE100A8848D /* JKTCustomShapedButton.m */; };
+		48C4F4441977DD0200A8848D /* UIImage+AlphaCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C4F4431977DD0200A8848D /* UIImage+AlphaCheck.m */; };
+		48C4F4461977E58A00A8848D /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C4F4451977E58A00A8848D /* image.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48C4F42C1977DC5F00A8848D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48C4F3FE1977DC5F00A8848D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48C4F4051977DC5F00A8848D;
+			remoteInfo = JKTCustomShapedButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48C4F4061977DC5F00A8848D /* JKTCustomShapedButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKTCustomShapedButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C4F4091977DC5F00A8848D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		48C4F40B1977DC5F00A8848D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		48C4F40D1977DC5F00A8848D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		48C4F4111977DC5F00A8848D /* JKTCustomShapedButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JKTCustomShapedButton-Info.plist"; sourceTree = "<group>"; };
+		48C4F4131977DC5F00A8848D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		48C4F4151977DC5F00A8848D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48C4F4171977DC5F00A8848D /* JKTCustomShapedButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JKTCustomShapedButton-Prefix.pch"; sourceTree = "<group>"; };
+		48C4F4181977DC5F00A8848D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48C4F4191977DC5F00A8848D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48C4F41C1977DC5F00A8848D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48C4F41E1977DC5F00A8848D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		48C4F41F1977DC5F00A8848D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		48C4F4211977DC5F00A8848D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		48C4F4271977DC5F00A8848D /* JKTCustomShapedButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKTCustomShapedButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C4F4281977DC5F00A8848D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		48C4F4301977DC5F00A8848D /* JKTCustomShapedButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JKTCustomShapedButtonTests-Info.plist"; sourceTree = "<group>"; };
+		48C4F4321977DC5F00A8848D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		48C4F4341977DC5F00A8848D /* JKTCustomShapedButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKTCustomShapedButtonTests.m; sourceTree = "<group>"; };
+		48C4F43F1977DCE100A8848D /* JKTCustomShapedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTCustomShapedButton.h; sourceTree = "<group>"; };
+		48C4F4401977DCE100A8848D /* JKTCustomShapedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTCustomShapedButton.m; sourceTree = "<group>"; };
+		48C4F4421977DD0200A8848D /* UIImage+AlphaCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AlphaCheck.h"; sourceTree = "<group>"; };
+		48C4F4431977DD0200A8848D /* UIImage+AlphaCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AlphaCheck.m"; sourceTree = "<group>"; };
+		48C4F4451977E58A00A8848D /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48C4F4031977DC5F00A8848D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C4F40C1977DC5F00A8848D /* CoreGraphics.framework in Frameworks */,
+				48C4F40E1977DC5F00A8848D /* UIKit.framework in Frameworks */,
+				48C4F40A1977DC5F00A8848D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C4F4241977DC5F00A8848D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C4F4291977DC5F00A8848D /* XCTest.framework in Frameworks */,
+				48C4F42B1977DC5F00A8848D /* UIKit.framework in Frameworks */,
+				48C4F42A1977DC5F00A8848D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48C4F3FD1977DC5F00A8848D = {
+			isa = PBXGroup;
+			children = (
+				48C4F40F1977DC5F00A8848D /* JKTCustomShapedButton */,
+				48C4F42E1977DC5F00A8848D /* JKTCustomShapedButtonTests */,
+				48C4F4081977DC5F00A8848D /* Frameworks */,
+				48C4F4071977DC5F00A8848D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48C4F4071977DC5F00A8848D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48C4F4061977DC5F00A8848D /* JKTCustomShapedButton.app */,
+				48C4F4271977DC5F00A8848D /* JKTCustomShapedButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48C4F4081977DC5F00A8848D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48C4F4091977DC5F00A8848D /* Foundation.framework */,
+				48C4F40B1977DC5F00A8848D /* CoreGraphics.framework */,
+				48C4F40D1977DC5F00A8848D /* UIKit.framework */,
+				48C4F4281977DC5F00A8848D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48C4F40F1977DC5F00A8848D /* JKTCustomShapedButton */ = {
+			isa = PBXGroup;
+			children = (
+				48C4F4451977E58A00A8848D /* image.png */,
+				48C4F43E1977DCCE00A8848D /* JKTCustomShapedButton */,
+				48C4F4181977DC5F00A8848D /* AppDelegate.h */,
+				48C4F4191977DC5F00A8848D /* AppDelegate.m */,
+				48C4F41B1977DC5F00A8848D /* Main.storyboard */,
+				48C4F41E1977DC5F00A8848D /* ViewController.h */,
+				48C4F41F1977DC5F00A8848D /* ViewController.m */,
+				48C4F4211977DC5F00A8848D /* Images.xcassets */,
+				48C4F4101977DC5F00A8848D /* Supporting Files */,
+			);
+			path = JKTCustomShapedButton;
+			sourceTree = "<group>";
+		};
+		48C4F4101977DC5F00A8848D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48C4F4111977DC5F00A8848D /* JKTCustomShapedButton-Info.plist */,
+				48C4F4121977DC5F00A8848D /* InfoPlist.strings */,
+				48C4F4151977DC5F00A8848D /* main.m */,
+				48C4F4171977DC5F00A8848D /* JKTCustomShapedButton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48C4F42E1977DC5F00A8848D /* JKTCustomShapedButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				48C4F4341977DC5F00A8848D /* JKTCustomShapedButtonTests.m */,
+				48C4F42F1977DC5F00A8848D /* Supporting Files */,
+			);
+			path = JKTCustomShapedButtonTests;
+			sourceTree = "<group>";
+		};
+		48C4F42F1977DC5F00A8848D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48C4F4301977DC5F00A8848D /* JKTCustomShapedButtonTests-Info.plist */,
+				48C4F4311977DC5F00A8848D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48C4F43E1977DCCE00A8848D /* JKTCustomShapedButton */ = {
+			isa = PBXGroup;
+			children = (
+				48C4F4421977DD0200A8848D /* UIImage+AlphaCheck.h */,
+				48C4F4431977DD0200A8848D /* UIImage+AlphaCheck.m */,
+				48C4F43F1977DCE100A8848D /* JKTCustomShapedButton.h */,
+				48C4F4401977DCE100A8848D /* JKTCustomShapedButton.m */,
+			);
+			path = JKTCustomShapedButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48C4F4051977DC5F00A8848D /* JKTCustomShapedButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C4F4381977DC5F00A8848D /* Build configuration list for PBXNativeTarget "JKTCustomShapedButton" */;
+			buildPhases = (
+				48C4F4021977DC5F00A8848D /* Sources */,
+				48C4F4031977DC5F00A8848D /* Frameworks */,
+				48C4F4041977DC5F00A8848D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKTCustomShapedButton;
+			productName = JKTCustomShapedButton;
+			productReference = 48C4F4061977DC5F00A8848D /* JKTCustomShapedButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48C4F4261977DC5F00A8848D /* JKTCustomShapedButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C4F43B1977DC5F00A8848D /* Build configuration list for PBXNativeTarget "JKTCustomShapedButtonTests" */;
+			buildPhases = (
+				48C4F4231977DC5F00A8848D /* Sources */,
+				48C4F4241977DC5F00A8848D /* Frameworks */,
+				48C4F4251977DC5F00A8848D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48C4F42D1977DC5F00A8848D /* PBXTargetDependency */,
+			);
+			name = JKTCustomShapedButtonTests;
+			productName = JKTCustomShapedButtonTests;
+			productReference = 48C4F4271977DC5F00A8848D /* JKTCustomShapedButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48C4F3FE1977DC5F00A8848D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = JKT;
+				TargetAttributes = {
+					48C4F4261977DC5F00A8848D = {
+						TestTargetID = 48C4F4051977DC5F00A8848D;
+					};
+				};
+			};
+			buildConfigurationList = 48C4F4011977DC5F00A8848D /* Build configuration list for PBXProject "JKTCustomShapedButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48C4F3FD1977DC5F00A8848D;
+			productRefGroup = 48C4F4071977DC5F00A8848D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48C4F4051977DC5F00A8848D /* JKTCustomShapedButton */,
+				48C4F4261977DC5F00A8848D /* JKTCustomShapedButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48C4F4041977DC5F00A8848D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C4F4221977DC5F00A8848D /* Images.xcassets in Resources */,
+				48C4F4141977DC5F00A8848D /* InfoPlist.strings in Resources */,
+				48C4F41D1977DC5F00A8848D /* Main.storyboard in Resources */,
+				48C4F4461977E58A00A8848D /* image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C4F4251977DC5F00A8848D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C4F4331977DC5F00A8848D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48C4F4021977DC5F00A8848D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C4F4441977DD0200A8848D /* UIImage+AlphaCheck.m in Sources */,
+				48C4F4201977DC5F00A8848D /* ViewController.m in Sources */,
+				48C4F41A1977DC5F00A8848D /* AppDelegate.m in Sources */,
+				48C4F4161977DC5F00A8848D /* main.m in Sources */,
+				48C4F4411977DCE100A8848D /* JKTCustomShapedButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C4F4231977DC5F00A8848D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C4F4351977DC5F00A8848D /* JKTCustomShapedButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48C4F42D1977DC5F00A8848D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48C4F4051977DC5F00A8848D /* JKTCustomShapedButton */;
+			targetProxy = 48C4F42C1977DC5F00A8848D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48C4F4121977DC5F00A8848D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48C4F4131977DC5F00A8848D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		48C4F41B1977DC5F00A8848D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48C4F41C1977DC5F00A8848D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48C4F4311977DC5F00A8848D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48C4F4321977DC5F00A8848D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48C4F4361977DC5F00A8848D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		48C4F4371977DC5F00A8848D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48C4F4391977DC5F00A8848D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKTCustomShapedButton/JKTCustomShapedButton-Prefix.pch";
+				INFOPLIST_FILE = "JKTCustomShapedButton/JKTCustomShapedButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		48C4F43A1977DC5F00A8848D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKTCustomShapedButton/JKTCustomShapedButton-Prefix.pch";
+				INFOPLIST_FILE = "JKTCustomShapedButton/JKTCustomShapedButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		48C4F43C1977DC5F00A8848D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JKTCustomShapedButton.app/JKTCustomShapedButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKTCustomShapedButton/JKTCustomShapedButton-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JKTCustomShapedButtonTests/JKTCustomShapedButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		48C4F43D1977DC5F00A8848D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JKTCustomShapedButton.app/JKTCustomShapedButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKTCustomShapedButton/JKTCustomShapedButton-Prefix.pch";
+				INFOPLIST_FILE = "JKTCustomShapedButtonTests/JKTCustomShapedButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48C4F4011977DC5F00A8848D /* Build configuration list for PBXProject "JKTCustomShapedButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C4F4361977DC5F00A8848D /* Debug */,
+				48C4F4371977DC5F00A8848D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48C4F4381977DC5F00A8848D /* Build configuration list for PBXNativeTarget "JKTCustomShapedButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C4F4391977DC5F00A8848D /* Debug */,
+				48C4F43A1977DC5F00A8848D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48C4F43B1977DC5F00A8848D /* Build configuration list for PBXNativeTarget "JKTCustomShapedButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C4F43C1977DC5F00A8848D /* Debug */,
+				48C4F43D1977DC5F00A8848D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48C4F3FE1977DC5F00A8848D /* Project object */;
+}
