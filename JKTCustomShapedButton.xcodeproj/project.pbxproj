@@ -12,18 +12,19 @@
 		48C4F40E1977DC5F00A8848D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C4F40D1977DC5F00A8848D /* UIKit.framework */; };
 		48C4F4141977DC5F00A8848D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48C4F4121977DC5F00A8848D /* InfoPlist.strings */; };
 		48C4F4161977DC5F00A8848D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C4F4151977DC5F00A8848D /* main.m */; };
-		48C4F41A1977DC5F00A8848D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C4F4191977DC5F00A8848D /* AppDelegate.m */; };
 		48C4F41D1977DC5F00A8848D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C4F41B1977DC5F00A8848D /* Main.storyboard */; };
-		48C4F4201977DC5F00A8848D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C4F41F1977DC5F00A8848D /* ViewController.m */; };
 		48C4F4221977DC5F00A8848D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C4F4211977DC5F00A8848D /* Images.xcassets */; };
 		48C4F4291977DC5F00A8848D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C4F4281977DC5F00A8848D /* XCTest.framework */; };
 		48C4F42A1977DC5F00A8848D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C4F4091977DC5F00A8848D /* Foundation.framework */; };
 		48C4F42B1977DC5F00A8848D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C4F40D1977DC5F00A8848D /* UIKit.framework */; };
 		48C4F4331977DC5F00A8848D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48C4F4311977DC5F00A8848D /* InfoPlist.strings */; };
 		48C4F4351977DC5F00A8848D /* JKTCustomShapedButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C4F4341977DC5F00A8848D /* JKTCustomShapedButtonTests.m */; };
-		48C4F4411977DCE100A8848D /* JKTCustomShapedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C4F4401977DCE100A8848D /* JKTCustomShapedButton.m */; };
-		48C4F4441977DD0200A8848D /* UIImage+AlphaCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C4F4431977DD0200A8848D /* UIImage+AlphaCheck.m */; };
-		48C4F4461977E58A00A8848D /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C4F4451977E58A00A8848D /* image.png */; };
+		48FCED8E197811800060CF0F /* JKTCustomShapedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FCED8B197811800060CF0F /* JKTCustomShapedButton.m */; };
+		48FCED8F197811800060CF0F /* UIImage+AlphaCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FCED8D197811800060CF0F /* UIImage+AlphaCheck.m */; };
+		48FCED93197811930060CF0F /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FCED91197811930060CF0F /* image.png */; };
+		48FCED94197811930060CF0F /* LOGO-WIRE.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FCED92197811930060CF0F /* LOGO-WIRE.png */; };
+		48FCED9A197811A90060CF0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FCED97197811A80060CF0F /* AppDelegate.m */; };
+		48FCED9B197811A90060CF0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FCED99197811A90060CF0F /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,22 +46,23 @@
 		48C4F4131977DC5F00A8848D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		48C4F4151977DC5F00A8848D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48C4F4171977DC5F00A8848D /* JKTCustomShapedButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JKTCustomShapedButton-Prefix.pch"; sourceTree = "<group>"; };
-		48C4F4181977DC5F00A8848D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		48C4F4191977DC5F00A8848D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		48C4F41C1977DC5F00A8848D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		48C4F41E1977DC5F00A8848D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		48C4F41F1977DC5F00A8848D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		48C4F4211977DC5F00A8848D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		48C4F4271977DC5F00A8848D /* JKTCustomShapedButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKTCustomShapedButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C4F4281977DC5F00A8848D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		48C4F4301977DC5F00A8848D /* JKTCustomShapedButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JKTCustomShapedButtonTests-Info.plist"; sourceTree = "<group>"; };
 		48C4F4321977DC5F00A8848D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		48C4F4341977DC5F00A8848D /* JKTCustomShapedButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKTCustomShapedButtonTests.m; sourceTree = "<group>"; };
-		48C4F43F1977DCE100A8848D /* JKTCustomShapedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTCustomShapedButton.h; sourceTree = "<group>"; };
-		48C4F4401977DCE100A8848D /* JKTCustomShapedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTCustomShapedButton.m; sourceTree = "<group>"; };
-		48C4F4421977DD0200A8848D /* UIImage+AlphaCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AlphaCheck.h"; sourceTree = "<group>"; };
-		48C4F4431977DD0200A8848D /* UIImage+AlphaCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AlphaCheck.m"; sourceTree = "<group>"; };
-		48C4F4451977E58A00A8848D /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		48FCED8A197811800060CF0F /* JKTCustomShapedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTCustomShapedButton.h; sourceTree = "<group>"; };
+		48FCED8B197811800060CF0F /* JKTCustomShapedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTCustomShapedButton.m; sourceTree = "<group>"; };
+		48FCED8C197811800060CF0F /* UIImage+AlphaCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AlphaCheck.h"; sourceTree = "<group>"; };
+		48FCED8D197811800060CF0F /* UIImage+AlphaCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AlphaCheck.m"; sourceTree = "<group>"; };
+		48FCED91197811930060CF0F /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		48FCED92197811930060CF0F /* LOGO-WIRE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LOGO-WIRE.png"; sourceTree = "<group>"; };
+		48FCED96197811A80060CF0F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48FCED97197811A80060CF0F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48FCED98197811A80060CF0F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		48FCED99197811A90060CF0F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,13 +122,10 @@
 		48C4F40F1977DC5F00A8848D /* JKTCustomShapedButton */ = {
 			isa = PBXGroup;
 			children = (
-				48C4F4451977E58A00A8848D /* image.png */,
-				48C4F43E1977DCCE00A8848D /* JKTCustomShapedButton */,
-				48C4F4181977DC5F00A8848D /* AppDelegate.h */,
-				48C4F4191977DC5F00A8848D /* AppDelegate.m */,
+				48FCED89197811800060CF0F /* JKTCustomShapedButton-Library */,
+				48FCED95197811A80060CF0F /* Classes */,
+				48FCED90197811930060CF0F /* Images */,
 				48C4F41B1977DC5F00A8848D /* Main.storyboard */,
-				48C4F41E1977DC5F00A8848D /* ViewController.h */,
-				48C4F41F1977DC5F00A8848D /* ViewController.m */,
 				48C4F4211977DC5F00A8848D /* Images.xcassets */,
 				48C4F4101977DC5F00A8848D /* Supporting Files */,
 			);
@@ -162,15 +161,35 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		48C4F43E1977DCCE00A8848D /* JKTCustomShapedButton */ = {
+		48FCED89197811800060CF0F /* JKTCustomShapedButton-Library */ = {
 			isa = PBXGroup;
 			children = (
-				48C4F4421977DD0200A8848D /* UIImage+AlphaCheck.h */,
-				48C4F4431977DD0200A8848D /* UIImage+AlphaCheck.m */,
-				48C4F43F1977DCE100A8848D /* JKTCustomShapedButton.h */,
-				48C4F4401977DCE100A8848D /* JKTCustomShapedButton.m */,
+				48FCED8A197811800060CF0F /* JKTCustomShapedButton.h */,
+				48FCED8B197811800060CF0F /* JKTCustomShapedButton.m */,
+				48FCED8C197811800060CF0F /* UIImage+AlphaCheck.h */,
+				48FCED8D197811800060CF0F /* UIImage+AlphaCheck.m */,
 			);
-			path = JKTCustomShapedButton;
+			path = "JKTCustomShapedButton-Library";
+			sourceTree = "<group>";
+		};
+		48FCED90197811930060CF0F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				48FCED91197811930060CF0F /* image.png */,
+				48FCED92197811930060CF0F /* LOGO-WIRE.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		48FCED95197811A80060CF0F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				48FCED96197811A80060CF0F /* AppDelegate.h */,
+				48FCED97197811A80060CF0F /* AppDelegate.m */,
+				48FCED98197811A80060CF0F /* ViewController.h */,
+				48FCED99197811A90060CF0F /* ViewController.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,7 +271,8 @@
 				48C4F4221977DC5F00A8848D /* Images.xcassets in Resources */,
 				48C4F4141977DC5F00A8848D /* InfoPlist.strings in Resources */,
 				48C4F41D1977DC5F00A8848D /* Main.storyboard in Resources */,
-				48C4F4461977E58A00A8848D /* image.png in Resources */,
+				48FCED94197811930060CF0F /* LOGO-WIRE.png in Resources */,
+				48FCED93197811930060CF0F /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,11 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48C4F4441977DD0200A8848D /* UIImage+AlphaCheck.m in Sources */,
-				48C4F4201977DC5F00A8848D /* ViewController.m in Sources */,
-				48C4F41A1977DC5F00A8848D /* AppDelegate.m in Sources */,
+				48FCED9A197811A90060CF0F /* AppDelegate.m in Sources */,
+				48FCED8F197811800060CF0F /* UIImage+AlphaCheck.m in Sources */,
 				48C4F4161977DC5F00A8848D /* main.m in Sources */,
-				48C4F4411977DCE100A8848D /* JKTCustomShapedButton.m in Sources */,
+				48FCED8E197811800060CF0F /* JKTCustomShapedButton.m in Sources */,
+				48FCED9B197811A90060CF0F /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +500,7 @@
 				48C4F43A1977DC5F00A8848D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48C4F43B1977DC5F00A8848D /* Build configuration list for PBXNativeTarget "JKTCustomShapedButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +509,7 @@
 				48C4F43D1977DC5F00A8848D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

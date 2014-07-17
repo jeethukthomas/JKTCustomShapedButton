@@ -9,6 +9,7 @@
 #import "ViewController.h"
 @interface ViewController ()
 - (IBAction)Act:(id)sender;
+- (IBAction)Act2:(id)sender;
 @end
 
 @implementation ViewController
@@ -24,6 +25,10 @@
 }
 
 - (IBAction)Act:(id)sender {
-    NSLog(@"Clicked");
+    NSLog(@"Clicked 1");
+}
+
+- (IBAction)Act2:(id)sender {
+     NSLog(@"Clicked 2");
 }
 @end
