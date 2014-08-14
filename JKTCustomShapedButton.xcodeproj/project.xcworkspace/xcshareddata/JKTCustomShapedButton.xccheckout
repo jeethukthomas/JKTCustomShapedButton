@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E9C4D292-4829-4C19-8CDB-8F9C1EEA9E6F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JKTCustomShapedButton</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B3B5751E-EA34-4677-B3C0-E8011DBC3FF2</key>
+		<string>https://github.com/jeethukthomas/JKTCustomShapedButton.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JKTCustomShapedButton.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B3B5751E-EA34-4677-B3C0-E8011DBC3FF2</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jeethukthomas/JKTCustomShapedButton.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B3B5751E-EA34-4677-B3C0-E8011DBC3FF2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B3B5751E-EA34-4677-B3C0-E8011DBC3FF2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JKTCustomShapedButton</string>
+		</dict>
+	</array>
+</dict>
+</plist>
